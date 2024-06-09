@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}    
+td, th {
+    border: 1px solid darkblue;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: wheat;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:lightgrey;">
+    <h1 style="text-align: center;"> Welcome to Web Development</h1>
+    <p>Web development involves creating and maintaining applications. It encompasses several discipline and skills.</p>
+    <h2>Representation:</h2>
+    <img src="image.png/web.png.jpg">
+    <p><cite> Basis of Web Development.</cite></p>
+    <a href="https://www.w3schools.com/html/html_basic.asp">Here is a link</a>
+    <h2 style="color:purple;" title="I am a tooltip"> Features of Web Development:</h2>
+    <pre>
+        1-Front-end development
+        2-Back-end Development
+        3-Full-stack development
+        4-UX and UI
+        5-CMS
+     </pre> <br>
+    <h2 style="color: purple;"> Web Development Processes:</h2>
+    <table>
+        <tr>
+            <th>Strategy</th>
+            <th>Planning</th>
+            <th>Build</th>
+            <th>Promote</th>
+        </tr>
+        <tr>
+            <td>Design Brief</td>
+            <td>Sitemap</td>
+            <td>Site Production</td>
+            <td>Online Marketing Plan</td>
+        </tr>
+        <tr>
+            <td>Initial Meeting</td>
+            <td>Wireframe</td>
+            <td>Web Hosting</td>
+            <td>SEO Injection</td>
+        </tr>
+        <tr>
+            <td>Marketing Research</td>
+            <td>Design concept</td>
+            <td>CMS Setup</td>
+            <td>Page Optimisation</td>
+        </tr>
+        </table> <br>
+        <button type="button" onclick="myFunction()">Click me for References!</button>
+        <p id="demo">Here!</p>
+        
+        <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "References took from W3school";
+        }    
+        </script>
+</body>
+</html>
